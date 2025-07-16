@@ -55,9 +55,9 @@ export default function landingPage() {
                 <div className="text-center max-w-2xl mx-auto">
                   <div className="text-lg text-slate-300 mb-6">In Collaboration With:</div>
                     <div className="grid md:grid-cols-3 gap-40">
-                      <img src="/Images/UKM.png" alt="UKM Logo" className="w-50 h-auto" />
-                      <img src="/Images/CyberHack.png" alt="CyberHack" className="w-50 h-auto" />
-                      <img src="/Images/MyOPECS.png" alt="MyOPECS" className="w-50 h-auto" />
+                      <img src="/images/UKM.png" alt="UKM Logo" className="w-50 h-auto" />
+                      <img src="/images/CyberHack.png" alt="CyberHack" className="w-50 h-auto" />
+                      <img src="/images/MyOPECS.png" alt="MyOPECS" className="w-50 h-auto" />
                     </div>   
                 </div>
               </div>

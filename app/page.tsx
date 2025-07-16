@@ -9,9 +9,8 @@ import { Linkedin, Mail, Clock, Code, Users, ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 import Header from "@/components/Rootheader";
-import { ReactNode } from "react"
 
-export default function landingPage({ children }: { children: ReactNode }) {
+export default function landingPage() {
   const { user, loading } = useAuthRedirect()
   const router = useRouter()
   const pathname = usePathname()

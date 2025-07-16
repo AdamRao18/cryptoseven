@@ -30,7 +30,7 @@ type Quiz = {
   title: string
   description: string
   type: "mcq" | "drag-and-drop"
-  quizQuestion: string[]
+  quizQuestion?: string[]
 }
 
 export default function QuizzesPage() {

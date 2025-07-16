@@ -95,7 +95,7 @@ export default function ForumPage() {
   };
 
   const handleLike = async (path: string, liked: boolean) => {
-    const ref = doc(db, ...path.split('/'));
+    const ref = doc(db, path);
     await updateDoc(ref, {
       likedBy: liked ? arrayRemove(user.uid) : arrayUnion(user.uid),
     });

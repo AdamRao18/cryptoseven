@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { getAuth } from 'firebase/auth'
-import { doc, updateDoc, getDoc, collectionGroup, writeBatch, query, where, getDocs } from 'firebase/firestore'
+import { doc, updateDoc, getDoc } from 'firebase/firestore'
 import { db } from '@/database/firebase'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'

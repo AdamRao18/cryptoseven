@@ -15,7 +15,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!loading && user) {
       if (user.role === "admin") {
-        router.push("/admin/course-management");
+        router.push("/admin/dashboard");
       } else {
         router.push("/dashboard");
       }

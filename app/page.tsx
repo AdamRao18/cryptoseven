@@ -13,13 +13,12 @@ import Header from "@/components/Rootheader";
 export default function landingPage() {
   const { user, loading } = useAuthRedirect()
   const router = useRouter()
-  const pathname = usePathname()
 
   // Redirect authenticated users away from public auth routes
   useEffect(() => {
     if (!loading && user) {
       if (user.role === "admin") {
-        router.push("/admin/course-management");
+        router.push("/admin/dashboard");
       } else {
         router.push("/dashboard");
       }
